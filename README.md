@@ -1,3 +1,30 @@
+# Using portfolio website
+ ## Local setup
+ Clone from repository:
+
+     Git clone https://github.com/LorenzoVonM/portfolio-website.git
+
+Ensure npm is active:
+
+    source ~/.nvm/nvm.sh
+    nvm use 14.15.1
+
+install node modules:
+
+   npm install
+
+run the app:
+
+    npm start
+
+## Working with docker
+
+Build the image:
+    docker build -t leofloresmetis/portfolio-website:latest .
+
+run the image locally:
+    docker run -p 8080:443/portfolio-website:latest
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
